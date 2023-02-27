@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tgt_page</class>
+ <widget class="QWidget" name="tgt_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>51</y>
+     <width>101</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="tgt_typ_label">
+      <property name="text">
+       <string>Type of target</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="radial_dist_label">
+      <property name="text">
+       <string>Radial Distance</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="az_label">
+      <property name="text">
+       <string>Azimuth</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="speed_label">
+      <property name="text">
+       <string>Speed</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="radial_movt_label">
+      <property name="text">
+       <string>Radial Movement</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="time_label">
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="time_offset_label">
+      <property name="text">
+       <string>Time Offset</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="play_loop_label">
+      <property name="text">
+       <string>Play in loop</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="save_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>380</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>380</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rad_dist_unit_label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>deg</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>180</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>260</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>s</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>81</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QComboBox" name="tgt_typ_comboBox"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="radial_dist_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="az_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="speed_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QComboBox" name="rad_movt_comboBox"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="time_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="time_offset_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="loop_radioButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Yes</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
